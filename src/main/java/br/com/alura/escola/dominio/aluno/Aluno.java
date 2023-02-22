@@ -1,4 +1,4 @@
-package br.com.alura.escola;
+package br.com.alura.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,22 @@ public class Aluno {
 
     public void adicionarTelefone(String ddd, String numero) {
         this.telefones.add(new Telefone(ddd, numero));
+    }
+
+    public String getCpf() {
+        return cpf.getNumero();
+    }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public String getEmail() {
+        return this.email.getEndereco();
+    }
+
+    public List<Telefone> getTelefones() {
+        return telefones;
     }
 
 }

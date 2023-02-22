@@ -1,4 +1,4 @@
-package br.com.alura.escola;
+package br.com.alura.escola.dominio.aluno;
 
 // VALUE OBJECT
 public class Email {
@@ -10,6 +10,10 @@ public class Email {
             throw new IllegalArgumentException("E-mail inválido.");
         }
         this.endereco = endereco;
+    }
+
+    public String getEndereco() {
+        return endereco;
     }
 
 }
