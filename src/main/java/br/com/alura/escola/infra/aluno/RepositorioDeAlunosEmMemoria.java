@@ -28,7 +28,7 @@ public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos {
 
     @Override
     public List<Aluno> listarTodosAlunosMatriculados() {
-        return null;
+        return this.matriculados;
     }
 
 }
