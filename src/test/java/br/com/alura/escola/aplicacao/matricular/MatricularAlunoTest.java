@@ -23,4 +23,5 @@ class MatricularAlunoTest {
         assertEquals("123.456.789-00", aluno.getCpf());
         assertEquals("fulano@email.com", aluno.getEmail());
     }
+
 }
