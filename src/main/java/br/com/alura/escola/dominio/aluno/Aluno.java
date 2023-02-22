@@ -37,4 +37,15 @@ public class Aluno {
         return telefones;
     }
 
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "cpf=" + cpf +
+                ", nome='" + nome + '\'' +
+                ", email=" + email +
+                ", telefones=" + telefones +
+                ", senha='" + senha + '\'' +
+                '}';
+    }
+
 }
